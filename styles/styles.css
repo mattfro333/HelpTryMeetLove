@@ -11,14 +11,18 @@ body {
   justify-content: center;
 
 }
-h1, h3, p {
+h1, h3, p, table {
   color: white;
+}
+.round {
+  background-color: white;
+  border-radius: .3em, .3em, .3em, .3em;
+  width: 50%;
 }
 div {
   width: 600px;
   margin: 5em auto;
   padding: 50 px;
-  background color: #fff;
   border-radius: 1em;
 }
 img {
