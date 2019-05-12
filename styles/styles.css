@@ -40,6 +40,11 @@ div {
   width: 200px;
   height: 300px;
 }
+.right {
+  display: flex;
+  justify-content: space-around;
+
+}
 a:link, a:visited {
   text-decoration: none;
 }
