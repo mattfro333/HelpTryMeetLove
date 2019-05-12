@@ -13,10 +13,6 @@ h1, h3, p, table {
   display:flex;
   justify-content: center;
 }
-table {
-  border-style: dashed;
-  display: block;
-}
 th, tr {
   font-size: 1.9em;
 }
@@ -33,17 +29,24 @@ th, tr {
 div {
   width: 600px;
   margin: 5em auto;
-  padding: 50 px;
+  padding: 50;
   border-radius: 1em;
 }
 .willy {
   width: 200px;
   height: 300px;
 }
-.right {
-  display: flex;
-  justify-content: space-around;
 
+.top {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 150px;
+  right: 65px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
 }
 a:link, a:visited {
   text-decoration: none;
